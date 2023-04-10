@@ -19250,7 +19250,7 @@ return null},
 ua:function ua(a){this.a=a},
 xv:function xv(a,b){var _=this
 _.f=a
-_.r="sci-fi"
+_.r="Sci-Fi"
 _.w=7
 _.y=_.x=""
 _.z=0
@@ -62916,7 +62916,7 @@ return s},
 $S:136}
 A.ua.prototype={
 aq(){var s=t.N
-return new A.xv(A.aG(["Acci\xf3n","action","Comedia","comedy","Drama","drama","Terror","horror","Ciencia Ficci\xf3n","sci-fi","Suspense","thriller"],s,s),B.j)}}
+return new A.xv(A.aG(["Action","action","Comedy","comedy","Drama","drama","Horror","horror","Sci-Fi","sci-fi","Thriller","thriller"],s,s),B.j)}}
 A.xv.prototype={
 mZ(){var s=0,r=A.a1(t.H),q=this,p,o,n
 var $async$mZ=A.a2(function(a,b){if(a===1)return A.Z(b,r)
@@ -62937,7 +62937,7 @@ while(true)switch(s){case 0:p=A.mB("https://api.trakt.tv/oauth/token")
 o=t.N
 n=A.aG(["Content-Type","application/json","trakt-api-version","2","trakt-api-key",u.G],o,o)
 s=3
-return A.aa(A.awV(p,B.ax.ih(A.aG(["grant_type","client_credentials","client_id",u.G,"client_secret",u.G],o,o)),n),$async$pZ)
+return A.aa(A.awV(p,B.ax.ih(A.aG(["grant_type","client_credentials","client_id",u.G,"client_secret","14dd4d05b804d15a52499b9350e2fd128abb40c165b76d32e4c90aaf305c7ea0"],o,o)),n),$async$pZ)
 case 3:m=b
 if(m.b===200){q=J.b9(B.ax.yb(0,A.akv(A.ajA(m.e).c.a.j(0,"charset")).cN(0,m.w),null),"access_token")
 s=1
