@@ -4,6 +4,7 @@ pick a random movie with some filters
 //this is the flutter web build deploy, not the soure code
 
 /*
+
 "Random Movie Whisper" 
  is a fun and easy-to-use app that helps
  users discover new movies to watch. With a simple tap, 
@@ -17,4 +18,5 @@ pick a random movie with some filters
 
  develeoped by @zorakDev 
  2023
+ 
 */
