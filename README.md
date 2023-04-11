@@ -14,7 +14,7 @@ pick a random movie with some filters
  such as its title, poster image, rating, and reviews from 
  popular sources like TMDB, Rotten Tomatoes and IMDb. 
  Whether you're looking for a new favorite or just need some 
- inspiration, "Random Movie" has got you covered.
+ inspiration, "Random Movie Whisper" comes to the rescue.
 
  develeoped by @zorakDev 
  2023
