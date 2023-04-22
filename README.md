@@ -2,12 +2,12 @@
 pick a random movie with some filters
 https://zorakdev.github.io/random-movie-whisper/#/
 
-//this is the flutter web build deploy, not the soure code
+//this is the flutter web app build deploy, not the soure code
 
 /*
 
 "Random Movie Whisper" 
- is a fun and easy-to-use app that helps
+ is a fun and easy-to-use web app that helps
  users discover new movies to watch. With a simple tap, 
  generates a random movie suggestion based on 
  their preferred genre, rating, and release year. 
