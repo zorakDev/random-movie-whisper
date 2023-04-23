@@ -1,6 +1,7 @@
 # random-movie-whisper
 pick a random movie with some filters
-https://zorakdev.github.io/random-movie-whisper/#/
+https://zorakdev.github.io/random-movie-whisper/
+
 
 //this is the flutter web app build deploy, not the soure code
 
