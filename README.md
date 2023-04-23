@@ -18,7 +18,7 @@ https://zorakdev.github.io/random-movie-whisper/
  Whether you're looking for a new favorite or just need some 
  inspiration, "Random Movie Whisper" comes to the rescue.
 
- develeoped by @zorakDev 
- 2023
+@zorakDev 
+ 
  
 */
