@@ -1,4 +1,4 @@
-# random-movie-whisper
+# Movie Whisper
 ### https://zorakdev.github.io/random-movie-whisper/
 
 It's still a concept under construction.
