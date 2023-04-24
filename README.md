@@ -1,8 +1,8 @@
 # random-movie-whisper
 ### https://zorakdev.github.io/random-movie-whisper/
 
-
-//this is the flutter web app build deploy, not the soure code
+It's still a concept under construction.
+It is not the source code, but the build web deploy
 
 /*
 
