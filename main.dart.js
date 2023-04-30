@@ -64208,7 +64208,7 @@ TU(){var s=0,r=A.a_(t.H),q=this,p,o,n,m,l,k,j,i
 var $async$n9=A.a0(function(a,b){if(a===1)return A.X(b,r)
 while(true)switch(s){case 0:j={}
 s=2
-return A.a5(A.alP(A.kG("https://api.themoviedb.org/3/discover/movie?api_key=495ca036d43fc6eba47e1e3bca54473b&with_genres="+q.f+"&vote_average.gte="+q.r+"&primary_release_date.gte="+q.ay+"-01-01&primary_release_date.lte="+q.ch+"-12-31&sort_by=popularity.desc",0,null)),$async$n9)
+return A.a5(A.alP(A.kG("https://api.themoviedb.org/3/discover/movie?api_key=495ca036d43fc6eba47e1e3bca54473b&with_genres="+q.f+"&vote_average.gte="+q.r+"&primary_release_date.gte="+q.ay+"-01-01&primary_release_date.lte="+q.ch+"-12-31&sort_by=popularity.desc&vote_count.gte=300",0,null)),$async$n9)
 case 2:i=b
 s=i.b===200?3:4
 break
