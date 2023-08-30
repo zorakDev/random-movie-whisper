@@ -33,46 +33,6 @@
   <link rel="manifest" href="manifest.json">
 
   <script>
-    // Mostrar el indicador de carga mientras se cargan los JS
-    document.addEventListener('DOMContentLoaded', function() {
-      // Muestra el indicador de carga (puede ser una animación, un mensaje, etc.)
-      var loadingIndicator = document.createElement('div');
-      loadingIndicator.id = 'loading-indicator';
-      loadingIndicator.textContent = 'Cargando...';
-      document.body.appendChild(loadingIndicator);
-
-      // Iniciar la carga de los archivos JS
-      var script = document.createElement('script');
-      script.src = 'flutter.js';
-      script.defer = true;
-
-      script.onload = function() {
-        // Eliminar el indicador de carga una vez que los JS estén cargados
-        var indicator = document.getElementById('loading-indicator');
-        if (indicator) {
-          indicator.remove();
-        }
-
-        // Tu código para cargar y ejecutar la aplicación aquí
-        window.addEventListener('load', function(ev) {
-          _flutter.loader.loadEntrypoint({
-            serviceWorker: {
-              serviceWorkerVersion: serviceWorkerVersion,
-            },
-            onEntrypointLoaded: function(engineInitializer) {
-              engineInitializer.initializeEngine().then(function(appRunner) {
-                appRunner.runApp();
-              });
-            }
-          });
-        });
-      };
-
-      document.head.appendChild(script);
-    });
-  </script>
-
-  <script>
     // The value below is injected by flutter build, do not touch.
     var serviceWorkerVersion = '1577163179';
   </script>
@@ -80,6 +40,10 @@
   <script src="flutter.js" defer></script>
 </head>
 <body>
+  <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <h1>Loading...</h1>
+  </div>
+
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
@@ -96,4 +60,5 @@
     });
   </script>
 </body>
+
 </html>
